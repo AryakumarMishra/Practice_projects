@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Calculator</title>
+</head>
+<body>
+    <h1 class="page-heading">Welcome to 'The Calculator'</h1>
+
+    <div class="container">
+        <div id="input-area">
+            <input type="text" id="display" readonly>
+        </div>
+
+
+        <div class="buttons">
+            <button class="numbers"onclick=takeInputValue('C')>C</button>
+            <button class="numbers"onclick=takeInputValue('DEL')>DEL</button>
+            <button class="numbers"onclick=takeInputValue('%')>%</button>
+            <button class="numbers"onclick=takeInputValue('/')>÷</button>
+            <button class="numbers"onclick=takeInputValue(7)>7</button>
+            <button class="numbers"onclick=takeInputValue(8)>8</button>
+            <button class="numbers"onclick=takeInputValue(9)>9</button>
+            <button class="numbers"onclick=takeInputValue('*')>x</button>
+            <button class="numbers"onclick=takeInputValue(4)>4</button>
+            <button class="numbers"onclick=takeInputValue(5)>5</button>
+            <button class="numbers"onclick=takeInputValue(6)>6</button>
+            <button class="numbers"onclick=takeInputValue('-')>-</button>
+            <button class="numbers"onclick=takeInputValue(1)>1</button>
+            <button class="numbers"onclick=takeInputValue(2)>2</button>
+            <button class="numbers"onclick=takeInputValue(3)>3</button>
+            <button class="numbers"onclick=takeInputValue('+')>+</button>
+            <button class="numbers"onclick=takeInputValue(0)>0</button>
+            <button class="numbers bolder-font"onclick=takeInputValue('.')>.</button>
+            <button class="numbers"onclick=calculate()>=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
