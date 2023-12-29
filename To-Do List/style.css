@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#event-items {
+    width: 50vw;
+    margin: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.input-area {
+    width: 50vw;
+    margin: auto;
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+input[type="text"]{
+    padding: 10px 5px;
+    font-size: 120%;
+}
+
+.add-item{
+    background-color: rgb(8, 162, 8);
+    font-weight: bold;
+}
+
+.delete-item{
+    background-color: red;
+    padding: 10px 5px;
+    font-weight: bold;
+}
